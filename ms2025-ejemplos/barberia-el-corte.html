@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es-CL">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Barbería El Corte - Estilo clásico, cortes modernos en Santiago</title>
+  <meta name="description" content="Barbería tradicional con 20 años de experiencia. Cortes clásicos y modernos, afeitado profesional y cuidado de barba. Ubicados en el centro de Santiago.">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            primary: '#2C3E50',
+            secondary: '#C0392B',
+            accent: '#F39C12'
+          }
+        }
+      }
+    }
+  </script>
+</head>
+<body class="font-sans antialiased">
+  
+  <header class="bg-gray-900 text-white shadow-md sticky top-0 z-50">
+    <nav class="container mx-auto px-4 py-4 flex justify-between items-center">
+      <div class="text-2xl font-bold">Barbería El Corte</div>
+      <a href="https://wa.me/56987654321?text=Hola,%20quiero%20agendar%20una%20hora" target="_blank" class="bg-green-500 text-white px-6 py-2 rounded-full hover:bg-green-600 transition">
+        💬 Agendar Hora
+      </a>
+    </nav>
+  </header>
+  
+  <section class="relative h-screen flex items-center justify-center bg-gradient-to-br from-gray-800 to-gray-900 text-white">
+    <div class="text-center px-4">
+      <h1 class="text-5xl md:text-6xl font-bold mb-4">Barbería El Corte</h1>
+      <p class="text-xl md:text-2xl mb-8 text-gray-300">Estilo clásico, cortes modernos</p>
+      <a href="https://wa.me/56987654321" target="_blank" class="inline-block bg-red-600 text-white px-8 py-4 rounded-full text-lg hover:bg-red-700 transition transform hover:scale-105">
+        📅 Agenda tu Hora
+      </a>
+    </div>
+  </section>
+  
+  <section class="py-20 bg-white">
+    <div class="container mx-auto px-4">
+      <h2 class="text-4xl font-bold text-center mb-12 text-gray-900">Nuestra Historia</h2>
+      <div class="max-w-3xl mx-auto text-gray-700 space-y-4">
+        <p class="text-lg">Con 20 años de tradición, Barbería El Corte es el lugar donde los hombres encuentran su estilo. Combinamos técnicas clásicas de barbería con las últimas tendencias en cortes masculinos.</p>
+        <p>Nuestros barberos profesionales están capacitados en cortes tradicionales, fades modernos, diseños personalizados y el arte del afeitado con navaja. Cada visita es una experiencia premium en un ambiente masculino y acogedor.</p>
+      </div>
+    </div>
+  </section>
+  
+  <section class="py-20 bg-gray-100">
+    <div class="container mx-auto px-4">
+      <h2 class="text-4xl font-bold text-center mb-12 text-gray-900">Nuestros Servicios</h2>
+      <div class="grid md:grid-cols-3 gap-8">
+        <div class="bg-white rounded-xl shadow-lg p-6 hover:shadow-xl transition">
+          <div class="text-4xl mb-4">✂️</div>
+          <h3 class="text-xl font-bold mb-2">Corte Clásico</h3>
+          <p class="text-red-600 font-semibold mb-3">$8.000</p>
+          <p class="text-gray-600">Corte tradicional con máquina y tijeras, incluye lavado</p>
+        </div>
+        <div class="bg-white rounded-xl shadow-lg p-6 hover:shadow-xl transition">
+          <div class="text-4xl mb-4">🪒</div>
+          <h3 class="text-xl font-bold mb-2">Afeitado Premium</h3>
+          <p class="text-red-600 font-semibold mb-3">$12.000</p>
+          <p class="text-gray-600">Afeitado con navaja, toallas calientes y productos premium</p>
+        </div>
+        <div class="bg-white rounded-xl shadow-lg p-6 hover:shadow-xl transition">
+          <div class="text-4xl mb-4">💈</div>
+          <h3 class="text-xl font-bold mb-2">Corte + Barba</h3>
+          <p class="text-red-600 font-semibold mb-3">$15.000</p>
+          <p class="text-gray-600">Combo completo: corte de cabello y arreglo de barba</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <section class="py-20 bg-gray-900 text-white">
+    <div class="container mx-auto px-4">
+      <h2 class="text-4xl font-bold text-center mb-12">Visítanos</h2>
+      <div class="max-w-2xl mx-auto bg-gradient-to-br from-red-600 to-yellow-500 rounded-xl p-8 text-center">
+        <div class="text-6xl mb-4">💈</div>
+        <h3 class="text-2xl font-bold mb-4">¡Agenda tu hora hoy!</h3>
+        <p class="mb-6">📍 Av. Providencia 789, Santiago Centro</p>
+        <p class="mb-6">📧 contacto@barberiaelcorte.cl | ☎️ +56 9 8765 4321</p>
+        <p class="mb-6">🕐 Lun-Vie: 10:00-20:00 | Sáb: 10:00-18:00</p>
+        <a href="https://wa.me/56987654321" target="_blank" class="inline-block bg-white text-red-600 px-8 py-4 rounded-full font-bold hover:bg-gray-100 transition transform hover:scale-105">
+          WhatsApp
+        </a>
+      </div>
+    </div>
+  </section>
+  
+  <footer class="bg-black text-white py-12">
+    <div class="container mx-auto px-4 text-center">
+      <h3 class="text-2xl font-bold mb-4">Barbería El Corte</h3>
+      <p class="text-gray-400 mb-6">Estilo clásico, cortes modernos</p>
+      <p class="text-gray-500 text-sm">© 2025 Barbería El Corte. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+  
+</body>
+</html>
